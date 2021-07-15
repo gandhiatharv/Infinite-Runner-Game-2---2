@@ -74,9 +74,6 @@ function setup() {
 
 function draw() { 
   
-  camera.position.x = bow.x;
-  camera.position.y = bow.y;
-  
   if(gameState === "play"){
     
       background.velocityX = -3;
